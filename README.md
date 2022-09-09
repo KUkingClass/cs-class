@@ -25,12 +25,12 @@ cs 요리하기 🥣
 ## 📌 Computer Science
 
 - ### Operating System
-  - 운영체제란
-  - 프로세스 vs 스레드
-  - 프로세스 주소 공간
-  - 인터럽트(Interrupt)
-  - 시스템 콜(System Call)
-  - PCB와 Context Switching
+  - 운영체제란 [@mimwin](https://github.com/mimwin)
+  - 프로세스 vs 스레드 [@janghoosa](https://github.com/janghoosa)
+  - 프로세스 주소 공간 [@LifesLike](https://github.com/LifesLike)
+  - 인터럽트(Interrupt) [@sujin-kk](https://github.com/sujin-kk)
+  - 시스템 콜(System Call) [@Lee-Jiseung](https://github.com/Lee-Jiseung)
+  - PCB와 Context Switching [@goldggyul](https://github.com/goldggyul)
   - IPC(Inter Process Communication)
   - CPU 스케줄링
   - 데드락(DeadLock)
@@ -42,12 +42,12 @@ cs 요리하기 🥣
   - 파일 시스템
 
 - ### Network
-  - OSI 7 계층
-  - TCP 3 way handshake & 4 way handshake
-  - TCP/IP 흐름제어 & 혼잡제어
-  - UDP
-  - 대칭키 & 공개키
-  - HTTP & HTTPS
+  - OSI 7 계층 [@sujin-kk](https://github.com/sujin-kk)
+  - TCP 3 way handshake & 4 way handshake [@goldggyul](https://github.com/goldggyul)
+  - TCP/IP 흐름제어 & 혼잡제어 [@janghoosa](https://github.com/janghoosa)
+  - UDP [@LifesLike](https://github.com/LifesLike)
+  - 대칭키 & 공개키 [@mimwin](https://github.com/mimwin)
+  - HTTP & HTTPS [@Lee-Jiseung](https://github.com/Lee-Jiseung)
   - TLS/SSL handshake
   - 로드 밸런싱(Load Balancing)
   - Blocking,Non-blocking & Synchronous,Asynchronous
