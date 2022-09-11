@@ -1,6 +1,7 @@
 # 프로세스 메모리 모델
 - - - -
-![](README/16403278811501*fwkyPI8Gmzd0Q_XAGM5_eA.png)
+![16403278811501*fwkyPI8Gmzd0Q_XAGM5_eA](https://user-images.githubusercontent.com/33995823/189523495-db36e7ab-cae2-43c0-b5bc-c346a33189f8.png)
+
 
 프로세스 메모리 모델은 기본적으로  `코드, 데이터, 스택` 영역으로 나뉜다. 
 
@@ -26,7 +27,7 @@
 	* 반면 C, C++ 에서는 프로그래머가 직접 free 해주어야 한다.
 * 힙 영역에 저장된 데이터의 주소값 자체는 스택 영역에 저장된다.
 
-![](README/1626311640459Screen%20Shot%202021-07-15%20at%2010.13.45%20AM.png)
+![1626311640459Screen Shot 2021-07-15 at 10 13 45 AM](https://user-images.githubusercontent.com/33995823/189523512-1e399133-bcd4-4967-9d64-9dec75423d02.png)
 
 
 ## 스택 영역
@@ -34,18 +35,18 @@
 * 새로운 함수를 호출하면 새로운 스택 프레임이 생성되고 이 스택 프레임 안에 해당 함수의 데이터가 저장된다.
 * 함수가 종료되면 스택 프레임 전체가 pop 된다.
 
-![](README/uc.png)
+<img width="656" alt="uc" src="https://user-images.githubusercontent.com/33995823/189523572-0116e1a9-c36e-46da-856a-078d4b062748.png">
 
 * 스택에 데이터가 너무 많이 쌓여 스택의 한계를 넘어가면 스택 오버플로우 에러가 발생한다. 흔히 재귀함수 깊이가 깊어지면 확인할 수 있다.
 * 멀티 쓰레드 환경에서 스택은 쓰레드마다 별도로 할당된다.
- ![](README/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202020-07-25%20%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB%2010.26.07.png)
+<img width="631" alt="스크린샷 2020-07-25 오전 10 26 07" src="https://user-images.githubusercontent.com/33995823/189523540-c04d5b0d-ff02-42bd-b703-00a82f955683.png">
 
 * 쓰레드는 서로 다른 함수 호출 등 독립적인 실행 흐름을 가져야 하기 때문에 스택 영역을 별도로 가진다.
 
 
 ## JVM 메모리 구조
 
-![](README/8uh8SPy.png)
+![8uh8SPy](https://user-images.githubusercontent.com/33995823/189523556-430b0ed5-a66a-400e-987c-97b98bbe956f.png)
 
 
 ## Metaspace 영역
