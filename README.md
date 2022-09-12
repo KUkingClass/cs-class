@@ -25,12 +25,12 @@ cs 요리하기 🥣
 ## 📌 Computer Science
 
 - ### Operating System
-  - 운영체제란 [@mimwin](https://github.com/mimwin)
+  - [운영체제란](https://github.com/KUkingClass/cs-class/tree/main/Operating%20System/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%EB%9E%80) [@mimwin](https://github.com/mimwin)
   - 프로세스 vs 스레드 [@janghoosa](https://github.com/janghoosa)
-  - 프로세스 주소 공간 [@LifesLike](https://github.com/LifesLike)
-  - 인터럽트(Interrupt) [@sujin-kk](https://github.com/sujin-kk)
-  - 시스템 콜(System Call) [@Lee-Jiseung](https://github.com/Lee-Jiseung)
-  - PCB와 Context Switching [@goldggyul](https://github.com/goldggyul)
+  - [프로세스 주소 공간](https://github.com/KUkingClass/cs-class/tree/main/Operating%20System/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%20%EC%A3%BC%EC%86%8C%20%EA%B3%B5%EA%B0%84) [@LifesLike](https://github.com/LifesLike)
+  - [인터럽트(Interrupt)](https://github.com/KUkingClass/cs-class/tree/main/Operating%20System/%EC%9D%B8%ED%84%B0%EB%9F%BD%ED%8A%B8) [@sujin-kk](https://github.com/sujin-kk)
+  - [시스템 콜(System Call)](https://github.com/KUkingClass/cs-class/tree/main/Operating%20System/%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EC%BD%9C) [@Lee-Jiseung](https://github.com/Lee-Jiseung)
+  - [PCB와 Context Switching](https://github.com/KUkingClass/cs-class/tree/main/Operating%20System/PCB%20%26%20Context%20Switching) [@goldggyul](https://github.com/goldggyul)
   - IPC(Inter Process Communication)
   - CPU 스케줄링
   - 데드락(DeadLock)
