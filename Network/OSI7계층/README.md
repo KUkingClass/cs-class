@@ -3,6 +3,8 @@
 ## OSI 7 계층이란?
 
 ```
+Open Systems Interconnection Reference Model
+
 네트워크에서 통신이 일어나는 과정을 7단계로 나눈 것을 말한다.
 ```
 
@@ -57,9 +59,11 @@
 
 ## OSI 7 계층 구성요소
 
-![Untitled](OSI%207%20%E1%84%80%E1%85%A8%E1%84%8E%E1%85%B3%E1%86%BC%2033e66d905ab44b7ead654432d7cbd3f0/Untitled.png)
+<img width="600" alt="Untitled" src="https://user-images.githubusercontent.com/85485290/191306737-e850dca3-093d-4737-ad73-6fb260314db3.png">
 
-![Untitled](OSI%207%20%E1%84%80%E1%85%A8%E1%84%8E%E1%85%B3%E1%86%BC%2033e66d905ab44b7ead654432d7cbd3f0/Untitled%201.png)
+
+<img width="600" alt="Untitled 1" src="https://user-images.githubusercontent.com/85485290/191306752-3eba203a-2f55-4581-8350-fc1198f0c8f2.png">
+
 
 ### 1계층 - 물리 계층(Physical Layer)
 
