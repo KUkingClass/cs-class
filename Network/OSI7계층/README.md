@@ -51,9 +51,9 @@ Open Systems Interconnection Reference Model
     
 - 인터넷으로 통신하는데 가장 기반이되는 프로토콜로 **TCP/IP 프로토콜**을 채택하고 있다!
 
-- 프로토콜 종류 정리
 
-[OSI 7 Layer 과 TCP/IP 4 Layer(TCP/IP Protocol suite) 비교](https://goitgo.tistory.com/25)
+
+[프로토콜 종류 정리](https://goitgo.tistory.com/25)
 
 ---
 
