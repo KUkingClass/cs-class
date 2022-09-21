@@ -40,15 +40,15 @@ TCP와 함께 Transport 계층을 구성하는 프로토콜
 >   
 > 또 IPv6 주소를 사용하는 경우 512 바이트를 넘길 수도 있다.  
 >   
->   ![](README/dsrc-dns-security-center-faq-dns-querying.jpg.webp)  
+>   https://infoblox.b-cdn.net/wp-content/uploads/dsrc-dns-security-center-faq-dns-querying.jpg![image](https://user-images.githubusercontent.com/33995823/191457247-fe6722ef-abfd-4f5f-9687-9a0bf51e11f5.png)
 >   
 > 어떤 쿼리의 리턴은 TXT 레코드 (Site Verification, Spam Detectipn 등) 가 나가기도 한다.  
 >   
->   ![](README/dsrc-dns-security-center-faq-dns-querying-spam-detection.jpg.webp)  
+>   https://infoblox.b-cdn.net/wp-content/uploads/dsrc-dns-security-center-faq-dns-querying-spam-detection.jpg![image](https://user-images.githubusercontent.com/33995823/191457000-ad81ea32-fe2e-489e-b356-17634b2e4ba1.png) 
 >   
 > DNS 보안을 위한 DNSSEC이 세팅되어 있는 경우 암호 키, 암호 알고리즘 등이 포함되어 응답 크기가 커진다.  
 >   
->   ![](README/dsrc-dns-security-center-faq-dns-querying-cryptographic-keys.jpg.webp)  
+>   https://infoblox.b-cdn.net/wp-content/uploads/dsrc-dns-security-center-faq-dns-querying-cryptographic-keys.jpg![image](https://user-images.githubusercontent.com/33995823/191457141-eadfc66a-4a56-476c-94c4-85ff1d0eb325.png)  
 >   
 
 DNS 패킷 사이즈 문제는 사실 오래전부터 나왔던 이야기이고 프로토콜의 사이즈를 키운 EDNS (Extension Mechanism for DNS) 가 제안되긴 했지만 여전히 널리 적용되지는 않았다.
