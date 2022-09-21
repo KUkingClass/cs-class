@@ -1,7 +1,7 @@
 # UDP
 UDP란? User Datagram Protocol
 
-![](README/tcp-ip-layers.jpg)
+![tcp-ip-layers](https://user-images.githubusercontent.com/33995823/191456087-47d2ca9e-b657-46bd-b58d-3f6d75611496.jpg)
 
 TCP와 함께 Transport 계층을 구성하는 프로토콜
 
@@ -19,9 +19,9 @@ TCP와 함께 Transport 계층을 구성하는 프로토콜
 * 패킷의 순서를 보장하지 않는다.
 * Receiver가 제대로 받았는지 확인하지 않는다.
 
-![](README/tcp-header.png)
+![tcp-header](https://user-images.githubusercontent.com/33995823/191456113-c9057bf2-1feb-4426-9ccd-7d44dc9c7412.png)
 
-![](README/udp-header.png)
+![udp-header](https://user-images.githubusercontent.com/33995823/191456131-652035f9-274c-4a74-baac-027b2697465d.png)
 
 ## UDP 사용 예시
 ### DNS
@@ -63,9 +63,9 @@ UDP를 사용해서 생기는 약간의 데이터 손실이 사용자에게 큰 
 ### HTTP/3
 2022년 6월 표준화된 HTTP/3 프로토콜은 기저 프로토콜로 이전 버전까지 사용하던 TCP 프로토콜 대신 UDP를 채택했다. 
 
-![](README/tcp-tls.png)
+![tcp-tls](https://user-images.githubusercontent.com/33995823/191456166-8dd971dc-f1c7-4041-9c32-e0ed8dac59b6.png)
 
-![](README/http-request-over-quic@2x.png)
+![http-request-over-quic@2x](https://user-images.githubusercontent.com/33995823/191456181-293847ad-58c0-4c48-bacd-ebbf6f083149.png)
 
 
 #CS 스터디/네트워크/UDP#
