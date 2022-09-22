@@ -35,23 +35,23 @@ cs 요리하기 🥣
   - [인터럽트(Interrupt)](https://github.com/KUkingClass/cs-class/tree/main/Operating%20System/%EC%9D%B8%ED%84%B0%EB%9F%BD%ED%8A%B8) [@sujin-kk](https://github.com/sujin-kk)
   - [시스템 콜(System Call)](https://github.com/KUkingClass/cs-class/tree/main/Operating%20System/%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EC%BD%9C) [@Lee-Jiseung](https://github.com/Lee-Jiseung)
   - [PCB와 Context Switching](https://github.com/KUkingClass/cs-class/tree/main/Operating%20System/PCB%20%26%20Context%20Switching) [@goldggyul](https://github.com/goldggyul)
-  - IPC(Inter Process Communication)
-  - CPU 스케줄링
-  - 데드락(DeadLock)
-  - Race Condition
-  - 세마포어(Semaphore) & 뮤텍스(Mutex)
-  - 페이징 & 세그먼테이션 (PDF)
-  - 페이지 교체 알고리즘
+  - IPC(Inter Process Communication) [@janghoosa](https://github.com/janghoosa)
+  - CPU 스케줄링 [@LifesLike](https://github.com/LifesLike)
+  - 데드락(DeadLock) [@goldggyul](https://github.com/goldggyul)
+  - Race Condition [@mimwin](https://github.com/mimwin)
+  - 세마포어(Semaphore) & 뮤텍스(Mutex) [@Lee-Jiseung](https://github.com/Lee-Jiseung)
+  - 페이징 & 세그먼테이션 (PDF) [@sujin-kk](https://github.com/sujin-kk)
+  - 페이지 교체 알고리즘 
   - 메모리(Memory)
   - 파일 시스템
 
 - ### Network
-  - OSI 7 계층 [@sujin-kk](https://github.com/sujin-kk)
-  - TCP 3 way handshake & 4 way handshake [@goldggyul](https://github.com/goldggyul)
-  - TCP/IP 흐름제어 & 혼잡제어 [@janghoosa](https://github.com/janghoosa)
-  - UDP [@LifesLike](https://github.com/LifesLike)
-  - 대칭키 & 공개키 [@mimwin](https://github.com/mimwin)
-  - HTTP & HTTPS [@Lee-Jiseung](https://github.com/Lee-Jiseung)
+  - [OSI 7 계층](https://github.com/KUkingClass/cs-class/tree/main/Network/OSI7%EA%B3%84%EC%B8%B5) [@sujin-kk](https://github.com/sujin-kk)
+  - [TCP 3 way handshake & 4 way handshake](https://github.com/KUkingClass/cs-class/tree/main/Network/TCP%203%20way%20handshake%20%26%204%20way%20handshake) [@goldggyul](https://github.com/goldggyul)
+  - [TCP/IP 흐름제어 & 혼잡제어](https://github.com/KUkingClass/cs-class/tree/main/Network/TCP:IP%20%ED%9D%90%EB%A6%84%EC%A0%9C%EC%96%B4%20%26%20%ED%98%BC%EC%9E%A1%EC%A0%9C%EC%96%B4) [@janghoosa](https://github.com/janghoosa)
+  - [UDP](https://github.com/KUkingClass/cs-class/tree/main/Network/UDP) [@LifesLike](https://github.com/LifesLike)
+  - [대칭키 & 공개키](https://github.com/KUkingClass/cs-class/tree/main/Network/%EB%8C%80%EC%B9%AD%ED%82%A4%20%26%20%EA%B3%B5%EA%B0%9C%ED%82%A4) [@mimwin](https://github.com/mimwin)
+  - [HTTP & HTTPS](https://github.com/KUkingClass/cs-class/tree/main/Network/HTTP%20%26%20HTTPS) [@Lee-Jiseung](https://github.com/Lee-Jiseung)
   - TLS/SSL handshake
   - 로드 밸런싱(Load Balancing)
   - Blocking,Non-blocking & Synchronous,Asynchronous
