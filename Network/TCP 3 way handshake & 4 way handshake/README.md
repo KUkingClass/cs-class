@@ -1,8 +1,12 @@
+> ## Table of Contents
+>
+> - [🤝 TCP Handshake](#-tcp-handshake)
+>   * [📌 UDP](#-udp)
+>   * [📌 TCP: `Transmission Control Protocol`](#-tcp-transmission-control-protocol)
+>     + [3️⃣ <u>3 way handshake</u>: 연결 성립(Connection Establishment)](#3%EF%B8%8F⃣-3-way-handshake-연결-성립connection-establishment)
+>     + [️4️⃣ 4 way handshake: 연결 해제(Connection Termination)](#4%EF%B8%8F⃣-4-way-handshake-연결-해제connection-termination)
 
-
-
-
-# TCP Handshake
+# 🤝 TCP Handshake
 
 - 왜 그냥 보내는 게 아니고 handshake 과정을 거칠까요?
 - 그럼 우선 TCP 통신이란 뭘까요?
@@ -10,19 +14,19 @@
 - 그렇다면 handshake는 reliable한 전송을 위해 필요하다고 생각해볼 수 있습니다.
 - 그렇다면 굳이 <u>reliable한 전송이 필요가 없다면, handshake를 통해 연결 성립을 해야할까요</u>?
 
-## UDP
+## 📌 UDP
 
 - UDP의 경우는 <u>reliable한 전송을 보장하지 않습니다.</u>
 - 따라서 UDP는 통신을 하려는 상대방이 지금 메세지를 받을 수 있는 지 없는 지를 확인하지 않고 그냥 보냅니다. 그래서 handshake 과정을 통해 상대방의 상황이 어떤 지, 준비가 되어 있는 지 확인할 필요가 없기 때문에, <u>handshake를 거치지 않습니다</u>.
 
-## TCP: `Transmission Control Protocol` 
+## 📌 TCP: `Transmission Control Protocol` 
 
 - 그렇다면 handshake가 뭐길래 TCP는 reliable한 전송을 보장할 수 있는 걸까요?
 - 우선 handshake는 연결을 성립할 때, 해제할 때 모두 일어납니다.
 - 성립할 때는 세번, 해제할 때는 네번 패킷을 주고 받습니다. 그래서 성립할 때는 `3-way handshake`, 해제할 때는 `4-way handshake`가 일어난다고 합니다.
 - 그럼 일단 연결을 성립하기 위한 3 way handshake 과정을 먼저 살펴봅시다.
 
-### <u>3 way handshake</u>: 연결 성립(Connection Establishment)
+### 3️⃣ <u>3 way handshake</u>: 연결 성립(Connection Establishment)
 
 - 3 way handshake의 핵심은 서로 sequence number를 주고 받으면서 상태를 동기화하는 것
 
@@ -68,7 +72,7 @@
 
      - [참고](https://evan-moon.github.io/search-results?q=%ED%8C%A8%ED%82%B7%EC%9D%98%20%ED%9D%90%EB%A6%84%EA%B3%BC%20%EC%98%A4%EB%A5%98%EB%A5%BC%20%EC%A0%9C%EC%96%B4%ED%95%98%EB%8A%94%20TCP)
 
-### 4 way handshake: 연결 해제(Connection Termination)
+### 4️⃣ 4 way handshake: 연결 해제(Connection Termination)
 
 - 연결 된 후에는 서로 segment를 보내서 데이터를 주고 받을 수 있습니다.
 - 후에 연결을 해제하고 싶을 때, 연결된 두 호스트 어디서든 연결을 해제할 수 있습니다. 
