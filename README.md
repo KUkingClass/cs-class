@@ -36,7 +36,7 @@ cs 요리하기 🥣
   - [시스템 콜(System Call)](https://github.com/KUkingClass/cs-class/tree/main/Operating%20System/%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EC%BD%9C) [@Lee-Jiseung](https://github.com/Lee-Jiseung)
   - [PCB와 Context Switching](https://github.com/KUkingClass/cs-class/tree/main/Operating%20System/PCB%20%26%20Context%20Switching) [@goldggyul](https://github.com/goldggyul)
   - IPC(Inter Process Communication) [@janghoosa](https://github.com/janghoosa)
-  - CPU 스케줄링 [@LifesLike](https://github.com/LifesLike)
+  - [CPU 스케줄링](https://github.com/KUkingClass/cs-class/tree/main/Operating%20System/CPU%20스케줄링) [@LifesLike](https://github.com/LifesLike)
   - 데드락(DeadLock) [@goldggyul](https://github.com/goldggyul)
   - Race Condition [@mimwin](https://github.com/mimwin)
   - 세마포어(Semaphore) & 뮤텍스(Mutex) [@Lee-Jiseung](https://github.com/Lee-Jiseung)
