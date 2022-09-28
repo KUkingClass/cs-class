@@ -38,7 +38,7 @@ cs 요리하기 🥣
   - IPC(Inter Process Communication) [@janghoosa](https://github.com/janghoosa)
   - [CPU 스케줄링](https://github.com/KUkingClass/cs-class/tree/main/Operating%20System/CPU%20스케줄링) [@LifesLike](https://github.com/LifesLike)
   - 데드락(DeadLock) [@goldggyul](https://github.com/goldggyul)
-  - Race Condition [@mimwin](https://github.com/mimwin)
+  - [Race Condition](https://github.com/KUkingClass/cs-class/tree/main/Operating%20System/Race%20Condition) [@mimwin](https://github.com/mimwin)
   - 세마포어(Semaphore) & 뮤텍스(Mutex) [@Lee-Jiseung](https://github.com/Lee-Jiseung)
   - 페이징 & 세그먼테이션 (PDF) [@sujin-kk](https://github.com/sujin-kk)
   - 페이지 교체 알고리즘 
