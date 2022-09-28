@@ -35,15 +35,15 @@ cs 요리하기 🥣
   - [인터럽트(Interrupt)](https://github.com/KUkingClass/cs-class/tree/main/Operating%20System/%EC%9D%B8%ED%84%B0%EB%9F%BD%ED%8A%B8) [@sujin-kk](https://github.com/sujin-kk)
   - [시스템 콜(System Call)](https://github.com/KUkingClass/cs-class/tree/main/Operating%20System/%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EC%BD%9C) [@Lee-Jiseung](https://github.com/Lee-Jiseung)
   - [PCB와 Context Switching](https://github.com/KUkingClass/cs-class/tree/main/Operating%20System/PCB%20%26%20Context%20Switching) [@goldggyul](https://github.com/goldggyul)
-  - IPC(Inter Process Communication) [@janghoosa](https://github.com/janghoosa)
+  - [IPC(Inter Process Communication)](https://github.com/KUkingClass/cs-class/tree/main/Operating%20System/IPC) [@janghoosa](https://github.com/janghoosa)
   - [CPU 스케줄링](https://github.com/KUkingClass/cs-class/tree/main/Operating%20System/CPU%20스케줄링) [@LifesLike](https://github.com/LifesLike)
-  - 데드락(DeadLock) [@goldggyul](https://github.com/goldggyul)
+  - [데드락(DeadLock)](https://github.com/KUkingClass/cs-class/tree/main/Operating%20System/%EB%8D%B0%EB%93%9C%EB%9D%BD) [@goldggyul](https://github.com/goldggyul)
   - [Race Condition](https://github.com/KUkingClass/cs-class/tree/main/Operating%20System/Race%20Condition) [@mimwin](https://github.com/mimwin)
-  - 세마포어(Semaphore) & 뮤텍스(Mutex) [@Lee-Jiseung](https://github.com/Lee-Jiseung)
-  - 페이징 & 세그먼테이션 (PDF) [@sujin-kk](https://github.com/sujin-kk)
-  - 페이지 교체 알고리즘 
-  - 메모리(Memory)
-  - 파일 시스템
+  - [세마포어(Semaphore) & 뮤텍스(Mutex)](https://github.com/KUkingClass/cs-class/tree/main/Operating%20System/%EC%84%B8%EB%A7%88%ED%8F%AC%EC%96%B4(Semaphore)%20%26%20%EB%AE%A4%ED%85%8D%EC%8A%A4(Mutex)) [@Lee-Jiseung](https://github.com/Lee-Jiseung)
+  - [페이징 & 세그먼테이션](https://github.com/KUkingClass/cs-class/tree/main/Operating%20System/%ED%8E%98%EC%9D%B4%EC%A7%95%20%26%20%EC%84%B8%EA%B7%B8%EB%A8%BC%ED%85%8C%EC%9D%B4%EC%85%98) [@sujin-kk](https://github.com/sujin-kk)
+  - 페이지 교체 알고리즘 [@Lee-Jiseung](https://github.com/Lee-Jiseung)
+  - 메모리(Memory) [@goldggyul](https://github.com/goldggyul)
+  - 파일 시스템 [@sujin-kk](https://github.com/sujin-kk)
 
 - ### Network
   - [OSI 7 계층](https://github.com/KUkingClass/cs-class/tree/main/Network/OSI7%EA%B3%84%EC%B8%B5) [@sujin-kk](https://github.com/sujin-kk)
@@ -52,9 +52,39 @@ cs 요리하기 🥣
   - [UDP](https://github.com/KUkingClass/cs-class/tree/main/Network/UDP) [@LifesLike](https://github.com/LifesLike)
   - [대칭키 & 공개키](https://github.com/KUkingClass/cs-class/tree/main/Network/%EB%8C%80%EC%B9%AD%ED%82%A4%20%26%20%EA%B3%B5%EA%B0%9C%ED%82%A4) [@mimwin](https://github.com/mimwin)
   - [HTTP & HTTPS](https://github.com/KUkingClass/cs-class/tree/main/Network/HTTP%20%26%20HTTPS) [@Lee-Jiseung](https://github.com/Lee-Jiseung)
-  - TLS/SSL handshake
-  - 로드 밸런싱(Load Balancing)
-  - Blocking,Non-blocking & Synchronous,Asynchronous
-  - Blocking & Non-Blocking I/O
+  - TLS/SSL handshake [@mimwin](https://github.com/mimwin)
+  - 로드 밸런싱(Load Balancing) [@janghoosa](https://github.com/janghoosa)
+  - Blocking,Non-blocking & Synchronous,Asynchronous [@LifesLike](https://github.com/LifesLike)
+  - Blocking & Non-Blocking I/O [@LifesLike](https://github.com/LifesLike)
   
-  
+
+- ### Algorithm
+  - 거품 정렬(Bubble Sort)
+  - 선택 정렬(Selection Sort)
+  - 삽입 정렬(Insertion Sort)
+  - 퀵 정렬(Quick Sort)
+  - 병합 정렬(Merge Sort)
+  - 힙 정렬(Heap Sort)
+  - 기수 정렬(Radix Sort)
+  - 계수 정렬(Count Sort)
+  - 이분 탐색(Binary Search)
+  - 해시 테이블 구현
+  - DFS & BFS
+  - 최장 증가 수열(LIS)
+  - 최소 공통 조상(LCA)
+  - 동적 계획법(Dynamic Programming)
+  - 다익스트라(Dijkstra) 알고리즘
+  - 비트마스크(BitMask)
+
+- ### Database
+  - 키(Key) 정리
+  - SQL - JOIN
+  - SQL Injection
+  - SQL vs NoSQL
+  - 정규화(Nomalization)
+  - 이상(Anomaly)
+  - 인덱스(INDEX)
+  - 트랜잭션(Transaction)
+  - 트랜잭션 격리 수준(Transaction Isolation Level)
+  - 저장 프로시저(Stored PROCEDURE)
+  - 레디스(Redis)
