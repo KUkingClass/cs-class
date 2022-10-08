@@ -54,8 +54,8 @@ cs 요리하기 🥣
   - [HTTP & HTTPS](https://github.com/KUkingClass/cs-class/tree/main/Network/HTTP%20%26%20HTTPS) [@Lee-Jiseung](https://github.com/Lee-Jiseung)
   - TLS/SSL handshake [@mimwin](https://github.com/mimwin)
   - 로드 밸런싱(Load Balancing) [@janghoosa](https://github.com/janghoosa)
-  - Blocking,Non-blocking & Synchronous,Asynchronous [@LifesLike](https://github.com/LifesLike)
-  - Blocking & Non-Blocking I/O [@LifesLike](https://github.com/LifesLike)
+  - [Blocking,Non-blocking & Synchronous,Asynchronous](https://github.com/KUkingClass/cs-class/tree/main/Network/Blocking%2C%20Non-Blocking#blocking-non-blocking) [@LifesLike](https://github.com/LifesLike)
+  - [Blocking & Non-Blocking I/O](https://github.com/KUkingClass/cs-class/tree/main/Network/Blocking%2C%20Non-Blocking#blocking-io-vs-non-blocking-io) [@LifesLike](https://github.com/LifesLike)
   
 
 - ### Algorithm
