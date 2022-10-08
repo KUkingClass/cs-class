@@ -64,7 +64,8 @@ A는 B를 호출해도 Block 되지 않고 이어서 코드를 실행한다. 그
 
 시스템 콜 중 
 ``` c
-int select (int nfds, fd_set *readfds, fd_set *writefds, 			fd_set *exceptfds, struct timeval *timeout);
+int select (int nfds, fd_set *readfds, fd_set *writefds, 
+        fd_set *exceptfds, struct timeval *timeout);
 ```
 
 함수의 동작이 async - blocking 모델의 예시이다.
