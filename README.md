@@ -53,7 +53,7 @@ cs 요리하기 🥣
   - [대칭키 & 공개키](https://github.com/KUkingClass/cs-class/tree/main/Network/%EB%8C%80%EC%B9%AD%ED%82%A4%20%26%20%EA%B3%B5%EA%B0%9C%ED%82%A4) [@mimwin](https://github.com/mimwin)
   - [HTTP & HTTPS](https://github.com/KUkingClass/cs-class/tree/main/Network/HTTP%20%26%20HTTPS) [@Lee-Jiseung](https://github.com/Lee-Jiseung)
   - [TLS/SSL handshake](https://github.com/KUkingClass/cs-class/tree/main/Network/TLS%20%26%20SSL%20HandShake) [@mimwin](https://github.com/mimwin)
-  - 로드 밸런싱(Load Balancing) [@janghoosa](https://github.com/janghoosa)
+  - [로드 밸런싱(Load Balancing)](https://github.com/KUkingClass/cs-class/tree/main/Network/%EB%A1%9C%EB%93%9C%20%EB%B0%B8%EB%9F%B0%EC%8B%B1(Load%20Balancing)) [@janghoosa](https://github.com/janghoosa)
   - [Blocking,Non-blocking & Synchronous,Asynchronous](https://github.com/KUkingClass/cs-class/tree/main/Network/Blocking%2C%20Non-Blocking#blocking-non-blocking) [@LifesLike](https://github.com/LifesLike)
   - [Blocking & Non-Blocking I/O](https://github.com/KUkingClass/cs-class/tree/main/Network/Blocking%2C%20Non-Blocking#blocking-io-vs-non-blocking-io) [@LifesLike](https://github.com/LifesLike)
   
