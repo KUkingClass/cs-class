@@ -43,7 +43,7 @@ cs 요리하기 🥣
   - [페이징 & 세그먼테이션](https://github.com/KUkingClass/cs-class/tree/main/Operating%20System/%ED%8E%98%EC%9D%B4%EC%A7%95%20%26%20%EC%84%B8%EA%B7%B8%EB%A8%BC%ED%85%8C%EC%9D%B4%EC%85%98) [@sujin-kk](https://github.com/sujin-kk)
   - 페이지 교체 알고리즘 [@Lee-Jiseung](https://github.com/Lee-Jiseung)
   - 메모리(Memory) [@goldggyul](https://github.com/goldggyul)
-  - 파일 시스템 [@sujin-kk](https://github.com/sujin-kk)
+  - [파일 시스템](https://github.com/KUkingClass/cs-class/tree/main/Operating%20System/%ED%8C%8C%EC%9D%BC%EC%8B%9C%EC%8A%A4%ED%85%9C) [@sujin-kk](https://github.com/sujin-kk)
 
 - ### Network
   - [OSI 7 계층](https://github.com/KUkingClass/cs-class/tree/main/Network/OSI7%EA%B3%84%EC%B8%B5) [@sujin-kk](https://github.com/sujin-kk)
