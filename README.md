@@ -41,8 +41,8 @@ cs 요리하기 🥣
   - [Race Condition](https://github.com/KUkingClass/cs-class/tree/main/Operating%20System/Race%20Condition) [@mimwin](https://github.com/mimwin)
   - [세마포어(Semaphore) & 뮤텍스(Mutex)](https://github.com/KUkingClass/cs-class/tree/main/Operating%20System/%EC%84%B8%EB%A7%88%ED%8F%AC%EC%96%B4(Semaphore)%20%26%20%EB%AE%A4%ED%85%8D%EC%8A%A4(Mutex)) [@Lee-Jiseung](https://github.com/Lee-Jiseung)
   - [페이징 & 세그먼테이션](https://github.com/KUkingClass/cs-class/tree/main/Operating%20System/%ED%8E%98%EC%9D%B4%EC%A7%95%20%26%20%EC%84%B8%EA%B7%B8%EB%A8%BC%ED%85%8C%EC%9D%B4%EC%85%98) [@sujin-kk](https://github.com/sujin-kk)
-  - 페이지 교체 알고리즘 [@Lee-Jiseung](https://github.com/Lee-Jiseung)
-  - 메모리(Memory) [@goldggyul](https://github.com/goldggyul)
+  - [페이지 교체 알고리즘](https://github.com/KUkingClass/cs-class/tree/main/Operating%20System/%ED%8E%98%EC%9D%B4%EC%A7%80%20%EA%B5%90%EC%B2%B4%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98) [@Lee-Jiseung](https://github.com/Lee-Jiseung)
+  - [메모리(Memory)](https://github.com/KUkingClass/cs-class/tree/main/Operating%20System/%EB%A9%94%EB%AA%A8%EB%A6%AC) [@goldggyul](https://github.com/goldggyul)
   - [파일 시스템](https://github.com/KUkingClass/cs-class/tree/main/Operating%20System/%ED%8C%8C%EC%9D%BC%EC%8B%9C%EC%8A%A4%ED%85%9C) [@sujin-kk](https://github.com/sujin-kk)
 
 - ### Network
@@ -59,15 +59,15 @@ cs 요리하기 🥣
   
 
 - ### Algorithm
-  - 거품 정렬(Bubble Sort)
-  - 선택 정렬(Selection Sort)
-  - 삽입 정렬(Insertion Sort)
-  - 퀵 정렬(Quick Sort)
-  - 병합 정렬(Merge Sort)
-  - 힙 정렬(Heap Sort)
-  - 기수 정렬(Radix Sort)
-  - 계수 정렬(Count Sort)
-  - 이분 탐색(Binary Search)
+  - 거품 정렬(Bubble Sort) [@LifesLike](https://github.com/LifesLike)
+  - 선택 정렬(Selection Sort) [@LifesLike](https://github.com/LifesLike)
+  - 삽입 정렬(Insertion Sort) [@LifesLike](https://github.com/LifesLike)
+  - 퀵 정렬(Quick Sort) [@mimwin](https://github.com/mimwin)
+  - 병합 정렬(Merge Sort) [@mimwin](https://github.com/mimwin)
+  - 힙 정렬(Heap Sort) [@Lee-Jiseung](https://github.com/Lee-Jiseung)
+  - 기수 정렬(Radix Sort) [@janghoosa](https://github.com/janghoosa)
+  - 계수 정렬(Count Sort) [@goldggyul](https://github.com/goldggyul)
+  - 이분 탐색(Binary Search) [@sujin-kk](https://github.com/sujin-kk)
   - 해시 테이블 구현
   - DFS & BFS
   - 최장 증가 수열(LIS)

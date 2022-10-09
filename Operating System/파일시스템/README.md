@@ -25,6 +25,11 @@
     + [2. 연결 할당](#2------)
     + [3. 인덱스 할당](#3-------)
     + [정리하면,,](#------)
+  * [파일 시스템을 어떻게 제공할 것인가](#---------)
+    + [Inode](#1------)
+    + [Directory](#2------)
+    + [Free list](#3-------)
+    + [Superblock](#------)
 
 ## Overview
 
@@ -156,7 +161,7 @@
     ```
     
     - Q. 서로 다른 프로그램이 동일한 파일을 읽거나 쓰면 포인터는 어떻게 될까요? ✨
-        
+      
         서로 다른 프로그램이 동일한 파일을 동일한 방법으로 개방했다해도 file descriptor가 다르기 때문에 읽기/쓰기 포인터 역시 개별적으로 관리된다. 
         
         즉, 하나의 프로그램이 읽기/쓰기 작업을 수행하여 포인터의 위치가 변경되더라도 다른 프로그램의 읽기/쓰기 포인터에는 전혀 영향을 주지 않는다.
@@ -345,7 +350,7 @@
 
 - 위에 그림에서 내가 사용자1 일때 test 파일에 접근하고자 하면 단순히 ‘`test`’로 접근
 - But, 사용자3의 test 파일에 접근할 때는 (사용자 3의 디렉토리 이름 USER3)
-    
+  
     `/USER3/test`
     
 
@@ -456,10 +461,9 @@
 - **연결 할당 장점**
     - 파일 생성이 쉬움 → 그냥 바로 디렉토리 내에 생성하면 됨
 - 연결 할당에는 외부 단편화가 있을까요? ✨
-    
+  
     모든 블록들이 함께연결되어 있어서, 빈공간 리스트들에 채워서 연결하면 됨~
     
-
 - **연결 할당 단점**
     - 순차 접근만 효과적으로 사용 가능
         - 파일의 i번째 블록을 찾으려면 첫 포인터부터 시작해서 타고 타고,, 따라가야 함 → 직접 접근이 불가능
@@ -535,3 +539,46 @@ Q. 이렇게 디스크에 파일을 할당할 때, 디스크 공간은 제한되
 
 디스크의 빈 공간을 관리하는 효율적인 방법?
 ```
+
+
+
+---------
+
+## 파일 시스템을 어떻게 제공할 것인가
+
+- 그냥 저장 장소인 disk를 어떻게 디렉토리라는 추상화를 제공할 것인가?
+- 디스크를 블럭으로 나누고, 데이터를 저장한다.
+  - 이 때 대부분의 OS의 파일시스템에서 블럭 크기는 4KB인데, 페이지 크기와 맞추기 위함이다.
+- 나눠진 블럭 중에서 데이터가 저장될 데이터 영역을 정해둔다.
+
+### Inode
+
+- 데이터가 어디 저장됐는 지 알기 위해선 파일 별로 정보를 저장해야한다. 이 때 어떤 데이터 블럭들이 파일을 구성하고, 크기는 몇이고, 권한과 소유자, 접근했던 시기 등의 모든 메타 정보가 `inode(index node)`에 저장된다.
+
+- inode역시 블럭에 inode table이 저장되어 있을 것이다.
+
+- inode는 고정된 direct pointer와 하나의 indirect pointer를 갖는다. direct pointer는 데이터 블럭이 어디에 있는지 직접 번호를 가리키고, 데이터 블럭이 많아져서 direct pointer만으로 표현이 불가능하면 indirect pointer가 또 다른 포인터를 가리켜서 해당하는 곳에 데이터 블럭이 위치한 곳을 나타낸다.
+
+  ![img](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6811c950-9810-480c-be9c-140624af80d4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221009%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221009T092215Z&X-Amz-Expires=86400&X-Amz-Signature=2ad7ebfa76e7dd057a8c9ea7cc978b6dde314bfe4ee9c4d839622bec535afcb1&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+
+- 다만 inode를 통해 데이터 블럭을 찾기 전에 파일의 inode가 어디에 있는지를 먼저 알아야할 것이다. 그럼 `inode number`는 어디에 있을까?
+
+### Directory
+
+- 디렉토리 역시 파일이다. 다만 특별한 파일인 것이다. → 즉 디렉토리도 inode가 있다.
+
+- 파일 이름과 inumber 쌍이 저장되어 있다.
+
+  ![img](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f0e491cb-45f5-405d-8265-460a3d40ffca/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221009%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221009T092231Z&X-Amz-Expires=86400&X-Amz-Signature=2e384b22a4a99d7360789b362ed242255e17ec0689465b445b45f3b6b4c65d53&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+
+### Free list
+
+- inode는 파일마다 있어야할 것이다. 그럼 이런 inode가 저장되어 있는 inode block도 있을 것이다. 그렇다면 새로운 파일이 생성된다면? 우선 inode를 저장야하므로 inode를 위한 빈공간을 할당받고, inode가 가리킬 데이터를 위한 데이터 블럭 역시 할당받아야 한다.
+  - 이 때 데이터 블럭을 할당받을 때, 연속적일 필요는 없지만 연속적이면 성능이 올라간다. 하드디스크의 헤드 섹터가 이동하는 시간이 있기 때문이다.
+- 따라서 비어있는 블럭에 대한 정보를 관리해야 한다. 그러므로 빈 inode block과, 빈 데이터 블럭에 대한 정보를 갖고 있는다.
+
+### Superblock
+
+- 파일 시스템마다 데이터 영역의 블럭이 몇개고, Inode가 저장되어 있는 블럭은 몇개고 등등의 전체 파일 시스템에 대한 정보 역시 어딘가에 저장이 되어 있어야 그것을 바탕으로 파일 시스템을 해석할 것이다.
+- 따라서 inode, data block 개수, inode table이 디스크에서 어디에 있는지 등의 정보를 super block에 저장한다.
+- file system이 mount될 때, OS가 superblock을 먼저 보고(그러기 위해선 슈퍼블록은 OS가 이해할 수 있는 format으로 약속되어 있어야 한다), 파일 시스템 트리에 저장장소를 mount한다.
