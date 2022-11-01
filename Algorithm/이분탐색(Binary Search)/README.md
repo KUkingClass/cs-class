@@ -1,4 +1,10 @@
 # 이분 탐색(Binary Search)
+- [이분 탐색(Binary Search)](#------binary-search-)
+  * [What is 이분 탐색?](#what-is-------)
+    + [특징](#--)
+  * [이분 탐색 구현해보기 (with python)](#-------------with-python-)
+  * [이분 탐색은 언제 쓰는게 좋을까?](#------------------)
+
 
 ## What is 이분 탐색?
 
@@ -105,7 +111,7 @@ print(bisect_right(a, x))
 # 리스트 a에 4를 삽입할 가장 오른쪽 인덱스는 4이다.
 ```
 
-![Untitled](%E1%84%8B%E1%85%B5%E1%84%87%E1%85%AE%E1%86%AB%20%E1%84%90%E1%85%A1%E1%86%B7%E1%84%89%E1%85%A2%E1%86%A8(Binary%20Search)%209978ea204caa4814af96f02b0e98d4aa/Untitled.png)
+![image](https://user-images.githubusercontent.com/85485290/199229261-eda67afe-89bf-400d-ac55-39cbb71179cb.png)
 
 ---
 
