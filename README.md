@@ -67,7 +67,7 @@ cs 요리하기 🥣
   - 힙 정렬(Heap Sort) [@Lee-Jiseung](https://github.com/Lee-Jiseung)
   - 기수 정렬(Radix Sort) [@janghoosa](https://github.com/janghoosa)
   - 계수 정렬(Count Sort) [@goldggyul](https://github.com/goldggyul)
-  - 이분 탐색(Binary Search) [@sujin-kk](https://github.com/sujin-kk)
+  - [이분 탐색(Binary Search)](https://github.com/KUkingClass/cs-class/blob/main/Algorithm/%EC%9D%B4%EB%B6%84%ED%83%90%EC%83%89(Binary%20Search)/README.md) [@sujin-kk](https://github.com/sujin-kk)
   - 해시 테이블 구현
   - DFS & BFS
   - 최장 증가 수열(LIS)
