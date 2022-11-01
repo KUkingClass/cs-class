@@ -1,5 +1,4 @@
 # 이분 탐색(Binary Search)
-- [이분 탐색(Binary Search)](#------binary-search-)
   * [What is 이분 탐색?](#what-is-------)
     + [특징](#--)
   * [이분 탐색 구현해보기 (with python)](#-------------with-python-)
