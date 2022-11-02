@@ -62,7 +62,7 @@ cs 요리하기 🥣
   - 거품 정렬(Bubble Sort) [@LifesLike](https://github.com/LifesLike)
   - 선택 정렬(Selection Sort) [@LifesLike](https://github.com/LifesLike)
   - 삽입 정렬(Insertion Sort) [@LifesLike](https://github.com/LifesLike)
-  - [퀵 정렬(Quick Sort)](https://github.com/KUkingClass/cs-class/tree/main/Algorithm/%ED%80%B5%EC%A0%95%EB%A0%AC%20%26%20%EB%B3%91%ED%95%A9%EC%A0%95%EB%A0%AC#%EB%B3%91%ED%95%A9-%EC%A0%95%EB%A0%ACmerge-sort) [@mimwin](https://github.com/mimwin)
+  - [퀵 정렬(Quick Sort)](https://github.com/KUkingClass/cs-class/tree/main/Algorithm/%ED%80%B5%EC%A0%95%EB%A0%AC%20%26%20%EB%B3%91%ED%95%A9%EC%A0%95%EB%A0%AC#%ED%80%B5-%EC%A0%95%EB%A0%ACquick-sort) [@mimwin](https://github.com/mimwin)
   - [병합 정렬(Merge Sort)](https://github.com/KUkingClass/cs-class/tree/main/Algorithm/%ED%80%B5%EC%A0%95%EB%A0%AC%20%26%20%EB%B3%91%ED%95%A9%EC%A0%95%EB%A0%AC#%EB%B3%91%ED%95%A9-%EC%A0%95%EB%A0%ACmerge-sort) [@mimwin](https://github.com/mimwin)
   - 힙 정렬(Heap Sort) [@Lee-Jiseung](https://github.com/Lee-Jiseung)
   - 기수 정렬(Radix Sort) [@janghoosa](https://github.com/janghoosa)
