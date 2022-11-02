@@ -59,16 +59,16 @@ cs 요리하기 🥣
   
 
 - ### Algorithm
-  - 거품 정렬(Bubble Sort) [@LifesLike](https://github.com/LifesLike)
-  - 선택 정렬(Selection Sort) [@LifesLike](https://github.com/LifesLike)
-  - 삽입 정렬(Insertion Sort) [@LifesLike](https://github.com/LifesLike)
+  - [거품 정렬(Bubble Sort)](https://github.com/KUkingClass/cs-class/tree/main/Algorithm/%EA%B1%B0%ED%92%88%20%26%20%EC%84%A0%ED%83%9D%20%26%20%EC%82%BD%EC%9E%85%EC%A0%95%EB%A0%AC) [@LifesLike](https://github.com/LifesLike)
+  - [선택 정렬(Selection Sort)](https://github.com/KUkingClass/cs-class/tree/main/Algorithm/%EA%B1%B0%ED%92%88%20%26%20%EC%84%A0%ED%83%9D%20%26%20%EC%82%BD%EC%9E%85%EC%A0%95%EB%A0%AC) [@LifesLike](https://github.com/LifesLike)
+  - [삽입 정렬(Insertion Sort)](https://github.com/KUkingClass/cs-class/tree/main/Algorithm/%EA%B1%B0%ED%92%88%20%26%20%EC%84%A0%ED%83%9D%20%26%20%EC%82%BD%EC%9E%85%EC%A0%95%EB%A0%AC) [@LifesLike](https://github.com/LifesLike)
   - [퀵 정렬(Quick Sort)](https://github.com/KUkingClass/cs-class/tree/main/Algorithm/%ED%80%B5%EC%A0%95%EB%A0%AC%20%26%20%EB%B3%91%ED%95%A9%EC%A0%95%EB%A0%AC#%ED%80%B5-%EC%A0%95%EB%A0%ACquick-sort) [@mimwin](https://github.com/mimwin)
   - [병합 정렬(Merge Sort)](https://github.com/KUkingClass/cs-class/tree/main/Algorithm/%ED%80%B5%EC%A0%95%EB%A0%AC%20%26%20%EB%B3%91%ED%95%A9%EC%A0%95%EB%A0%AC#%EB%B3%91%ED%95%A9-%EC%A0%95%EB%A0%ACmerge-sort) [@mimwin](https://github.com/mimwin)
-  - 힙 정렬(Heap Sort) [@Lee-Jiseung](https://github.com/Lee-Jiseung)
+  - [힙 정렬(Heap Sort)](https://github.com/KUkingClass/cs-class/tree/main/Algorithm/%ED%9E%99%20%EC%A0%95%EB%A0%AC(Heap%20Sort)) [@Lee-Jiseung](https://github.com/Lee-Jiseung)
   - [기수 정렬(Radix Sort)](https://github.com/KUkingClass/cs-class/tree/main/Algorithm/%EA%B8%B0%EC%88%98%20%EC%A0%95%EB%A0%AC(Radix%20Sort)) [@janghoosa](https://github.com/janghoosa)
-  - 계수 정렬(Count Sort) [@goldggyul](https://github.com/goldggyul)
+  - [계수 정렬(Count Sort)](https://github.com/KUkingClass/cs-class/tree/main/Algorithm/%EA%B3%84%EC%88%98%20%EC%A0%95%EB%A0%AC(Count%20Sort)) [@goldggyul](https://github.com/goldggyul)
   - [이분 탐색(Binary Search)](https://github.com/KUkingClass/cs-class/blob/main/Algorithm/%EC%9D%B4%EB%B6%84%ED%83%90%EC%83%89(Binary%20Search)/README.md) [@sujin-kk](https://github.com/sujin-kk)
-  - 해시 테이블 구현
+  - 해시 테이블 구현 
   - DFS & BFS
   - 최장 증가 수열(LIS)
   - 최소 공통 조상(LCA)
@@ -77,12 +77,12 @@ cs 요리하기 🥣
   - 비트마스크(BitMask)
 
 - ### Database
-  - 키(Key) 정리
-  - SQL - JOIN
-  - SQL Injection
-  - SQL vs NoSQL
-  - 정규화(Nomalization)
-  - 이상(Anomaly)
+  - 키(Key) 정리 [@mimwin](https://github.com/mimwin)
+  - SQL - JOIN [@goldggyul](https://github.com/goldggyul)
+  - SQL Injection [@LifesLike](https://github.com/LifesLike)
+  - SQL vs NoSQL [@sujin-kk](https://github.com/sujin-kk)
+  - 정규화(Nomalization) [@janghoosa](https://github.com/janghoosa)
+  - 이상(Anomaly) [@Lee-Jiseung](https://github.com/Lee-Jiseung)
   - 인덱스(INDEX)
   - 트랜잭션(Transaction)
   - 트랜잭션 격리 수준(Transaction Isolation Level)
