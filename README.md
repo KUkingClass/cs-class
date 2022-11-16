@@ -80,7 +80,7 @@ cs 요리하기 🥣
   - 키(Key) 정리 [@mimwin](https://github.com/mimwin)
   - SQL - JOIN [@goldggyul](https://github.com/goldggyul)
   - SQL Injection [@LifesLike](https://github.com/LifesLike)
-  - SQL vs NoSQL [@sujin-kk](https://github.com/sujin-kk)
+  - [SQL vs NoSQL](https://github.com/KUkingClass/cs-class/tree/main/Database/NoSQL) [@sujin-kk](https://github.com/sujin-kk)
   - 정규화(Nomalization) [@janghoosa](https://github.com/janghoosa)
   - 이상(Anomaly) [@Lee-Jiseung](https://github.com/Lee-Jiseung)
   - 인덱스(INDEX)
