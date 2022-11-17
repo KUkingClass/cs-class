@@ -3,6 +3,11 @@
     + [특징](#--)
   * [이분 탐색 구현해보기 (with python)](#-------------with-python-)
   * [이분 탐색은 언제 쓰는게 좋을까?](#------------------)
+  * [lower bound와 upper bound](#lower-bound--upper-bound)
+    + [lower bound](#lower-bound)
+    + [upper bound](#upper-bound)
+  * [이진 탐색 구현 시 헷갈리는 점✨](#------------------)
+    + [헷갈리지 않게 구현하기 (수정예정 ^^)](#----------------------)
 
 
 ## What is 이분 탐색?
@@ -188,4 +193,219 @@ print(count_by_range(a, -1, 3))
 >>> right : 6 left : 0
 >>> 6
 # 리스트 a에 -1~3사이의 값은 총 6개 존재한다.
+```
+
+---
+## lower bound와 upper bound
+
+- `이진 탐색`은 리스트에서 정확히 원하는 값 (target)을 찾는 방법이었다.
+- `lower/upper bound` 란?
+
+```
+target 값 보다 처음으로 크거나 작은 값이 나오는 '위치'를 찾는 방법
+
+중복된 요소를 찾거나, 타겟의 상한선 및 하한선을 찾을 때 등,, 사용!
+```
+
+- `lower bound`
+
+```
+target 값보다 '같거나 큰 값'이 나오는 '처음 위치'를 찾음
+
+즉, target 값 이상인 최초의 인덱스 반환
+```
+
+- `upper bound`
+
+```
+target 값보다 '처음으로' '큰 값'이 나오는 위치를 찾음
+
+즉, target 값 초과인 최초의 인덱스 반환
+```
+
+- 중복된 요소를 찾을 수 있다고 한 이유 → lower ~ upper 사이의 인덱스들은 중복된 값을 가지고 있을것임
+
+| index | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| value | 1 | 2 | 2 | 3 | 3 | 3 | 4 | 6 | 7 |  |
+
+- list = [1, 2, 2, 3, 3, 3, 4, 6, 7] (n = 9)
+    - lower_bound(3) → 3 ✨
+    - upper_bound(3) → 6 ✨
+    
+    - lower_bound(4) → 6
+    - upper_bound(4) → 7
+    
+    - lower_bound(5) → 7
+    - upper_bound(5) →  7
+    
+    - lower_bound(6) → ?
+    - upper_bound(6) → ?
+
+<img src="https://user-images.githubusercontent.com/85485290/199452451-831cee92-faa0-455c-aed8-2be3323ed6a9.png" width="400" />
+
+- 리스트의 모든 수가 target보다 작다면 → 범위 밖을 리턴해줘야한다. (ex. target = 8)
+    - 그래서 high를 n-1이 아니라 `n` 로 먼저 지정해야 한다! ✨
+    
+
+### lower bound
+
+- 이진 탐색은 target 값을 찾으면 바로 리턴했었다.
+- But, lower bound는 → arr[mid]가 target 값과 같거나 크면 바로 리턴하지 않고 ‘처음으로’ 나오는 위치를 찾기 위해서 범위를 더 좁히면서 탐색한다.✨
+
+- [1, 2, 2, 3, 3, 3, 4, 6, 7]
+- 위에서 lower_bound(3) 를 보면
+    - low = `0`, high = `9`, mid = `4`
+    - **arr[mid] = 3** → 어 3을 찾았네?
+    - [1, 2, 2, 3, 3, 3, ,,] → mid는 지금 index=4를 가리키고 있다.
+    - 근데 lower_bound는 3보다 크거나 같은 값의 ‘처음’ 위치를 알아내야하므로 계속 탐색해줘야함 (즉, 여기서 mid=4가 아니라 `mid=3`이 되어야 하는것)
+    - 그래서 `high = mid`로 지정해서 범위를 좁힌다!⭐️
+
+```python
+def lower_bound(arr, target):
+	low = 0
+	high = len(arr)
+
+	while low < high:
+		mid = (low + high) // 2
+		
+		if arr[mid] >= target:
+			high = mid # target 값보다 크거나 같은 값의 '처음' 위치를 알아내기 위해
+		else:
+			low = mid + 1 # mid - target - high 순 -> mid의 오른쪽 범위로 제한
+	
+	return low
+```
+
+- Q. 이진탐색과 다르게 lower ≤ high가 아닌 이유? (hint. lower ≤ high 로 지정하게 되면 무한 루프에서 빠져나오지 못한다)
+
+- Q. high는 n-1이 아니라 n으로 지정해야 하는 이유를 알았다. 그렇다면 low도 0이 아니라 -1로 해줘야 하는 것 아닐까?
+
+### upper bound
+
+- upper bound는 arr[mid]가 target 값보다 커지는 ‘처음’ 위치를 리턴해야 하는 것
+- 즉, arr[mid] > target 이라면, 크다고 바로 리턴하지 않고 최초로 큰 값이 나오는 위치를 찾기 위해 범위를 더 좁히며 탐색한다.✨
+
+- [1, 2, 2, 3, 3, 3, 4, 6, 7]
+- upper_bound(3) 를 보면
+    - low = 0, high = 9, mid = 4
+    - arr[mid] = 3 < target 이기 때문에 low = mid + 1로!
+    - low = 4, high = 9, mid = 6
+    - arr[mid] = 4 > target 이지만 ‘최초로’ 3보다 큰 값이 나오는 위치인지 확인해야함
+    - `high=mid` 로 지정해서 범위를 좁힌다!⭐️
+
+```python
+def upper_bound(arr, target):
+	low = 0
+	high = len(arr)
+
+	while low < high:
+		mid = (low + high) // 2
+		
+		if arr[mid] > target:
+			high = mid # target 값보다 큰 값의 '처음' 위치를 알아내기 위해
+		else:
+			low = mid + 1 # mid - target - high 순 -> mid의 오른쪽 범위로 제한
+	
+	return low
+```
+
+---
+
+## 이진 탐색 구현 시 헷갈리는 점✨
+
+1. 경계를
+    - low = 0, high = n - 1
+    - low = 0, high = n
+    - low = -1, high = n
+
+등,, 어느걸 선택할지
+
+1. 탈출 조건으로 
+    - `low ≤ high`
+    - `low < high`
+    - `low + 1 < high`
+
+중 어느걸 선택해야 할지
+
+1. 정답이 
+    - (low + high) / 2 (mid)
+    - high
+    - low
+
+어떤것인지
+
+---
+
+### 헷갈리지 않게 구현하기 (수정예정 ^^)
+
+- 일단 low, high는 항상 ‘정답의 범위’를 나타낼 수 있도록 구간을 설정해야 한다.
+    - 예를들어 low를 출력해야 하는 문제의 답이 최대 n일 때, high = n으로 설정하거나
+    - high를 출력해야 하는 문제의 답이 최소 0일 때, low = 0으로 선언하면 안된다.
+    - 이때는 → `high = n+1`, `low = -1`로 선언해야함!✨
+    
+- 초기값을 잘 선언해주었다면 `low + 1 < high` 동안 mid = `(low + high) / 2` 를 구해서
+- arr[mid] > target 이면 `high = mid`를
+- arr[mid] < target 이면 `low = mid`를 해주면 됨
+
+- low + 1 < high 이기 때문에 low와 high 사이에 `무조건 1개의 칸이 있고`
+- 항상 low < mid < high를 만족하고 있음
+- 언젠가 low + 1 == high가 되면 탈출
+
+- 이분 탐색이 끝나면 low와 high는 각각 정답이 바뀌는 경계에 위치하게 되고, 만약 정답이 가장 큰 걸 고르는 거면 `low`를, 뭔가 가장 작은 걸 고르는 거면 `high`를 출력
+
+- binary_search
+
+```python
+def binary_search(arr, target):
+	low = 0
+	high = len(arr) - 1
+
+	while low + 1 < high: 
+		mid = (low + high) // 2
+
+		if arr[mid] == target: # 원하는 값 찾은 경우 index 반환
+			return mid
+		elif arr[mid] > target: # mid의 왼쪽으로 제한
+			high = mid
+		else # mid의 오른쪽으로 제한
+			low = mid
+
+	return low
+```
+
+- lower_bound (target보다 크거나 같은 값의 최소 인덱스를 고르는 느낌이니까 low)
+
+```python
+def lower_bound(arr, target):
+	low = -1
+	high = len(arr)
+
+	while low + 1 < high:
+		mid = (low + high) // 2
+		
+		if arr[mid] >= target:
+			high = mid
+		else:
+			low = mid
+	
+	return low
+```
+
+- upper_bound (target보다 큰 값의 최소 인덱스를 고르는 느낌이니까 low)
+
+```python
+def upper_bound(arr, target):
+	low = -1
+	high = len(arr)
+
+	while low + 1 < high:
+		mid = (low + high) // 2
+		
+		if arr[mid] > target:
+			high = mid
+		else:
+			low = mid
+	
+	return low
 ```
