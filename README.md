@@ -82,7 +82,7 @@ cs 요리하기 🥣
   - SQL Injection [@LifesLike](https://github.com/LifesLike)
   - [SQL vs NoSQL](https://github.com/KUkingClass/cs-class/tree/main/Database/NoSQL) [@sujin-kk](https://github.com/sujin-kk)
   - 정규화(Nomalization) [@janghoosa](https://github.com/janghoosa)
-  - 이상(Anomaly) [@Lee-Jiseung](https://github.com/Lee-Jiseung)
+  - [이상(Anomaly)](https://github.com/KUkingClass/cs-class/tree/main/Database/%EC%9D%B4%EC%83%81(Anomaly)) [@Lee-Jiseung](https://github.com/Lee-Jiseung)
   - 인덱스(INDEX)
   - 트랜잭션(Transaction)
   - 트랜잭션 격리 수준(Transaction Isolation Level)
