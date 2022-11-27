@@ -14,7 +14,8 @@
 깊이 우선 탐색, Depth First Search
 ```
 
-![Untitled](DFS%20&%20BFS%20abbe46e6d0004a268054e69d3e89395e/Untitled.png)
+![image](https://user-images.githubusercontent.com/85485290/204121369-7b7660fc-5521-473e-a953-443e61f43bfb.png)
+
 
 - `스택`을 이용해서 최대한 깊이 방문하고, 갈 수 없으면 이전 정점으로 돌아간다.
 - **앞으로 찾아서 가야할 노드** & **이미 방문한 노드**를 기준으로 탐색✨
@@ -68,7 +69,7 @@ def dfs(x, n):
 넓이 우선 탐색, Breadth First Search
 ```
 
-![Untitled](DFS%20&%20BFS%20abbe46e6d0004a268054e69d3e89395e/Untitled%201.png)
+![image](https://user-images.githubusercontent.com/85485290/204121376-889f0d86-9da9-4db0-8d27-1f31995fecf1.png)
 
 - `큐`를 이용해서 구현 가능
     - 노드를 방문하면서 인접한 노드 중 방문하지 않았던 노드의 정보만 큐에 넣고, 먼저 큐에 들어있던 노드부터 방문하면 된다.
