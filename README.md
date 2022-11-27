@@ -69,7 +69,7 @@ cs 요리하기 🥣
   - [계수 정렬(Count Sort)](https://github.com/KUkingClass/cs-class/tree/main/Algorithm/%EA%B3%84%EC%88%98%20%EC%A0%95%EB%A0%AC(Count%20Sort)) [@goldggyul](https://github.com/goldggyul)
   - [이분 탐색(Binary Search)](https://github.com/KUkingClass/cs-class/blob/main/Algorithm/%EC%9D%B4%EB%B6%84%ED%83%90%EC%83%89(Binary%20Search)/README.md) [@sujin-kk](https://github.com/sujin-kk)
   - 해시 테이블 구현 
-  - DFS & BFS
+  - [DFS & BFS](https://github.com/KUkingClass/cs-class/blob/main/Algorithm/DFS%20&%20BFS/README.md)
   - 최장 증가 수열(LIS)
   - 최소 공통 조상(LCA)
   - 동적 계획법(Dynamic Programming)
