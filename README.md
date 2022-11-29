@@ -70,7 +70,7 @@ cs 요리하기 🥣
   - [이분 탐색(Binary Search)](https://github.com/KUkingClass/cs-class/blob/main/Algorithm/%EC%9D%B4%EB%B6%84%ED%83%90%EC%83%89(Binary%20Search)/README.md) [@sujin-kk](https://github.com/sujin-kk)
   - 해시 테이블 구현 
   - [DFS & BFS @sujin-kk](https://github.com/KUkingClass/cs-class/blob/main/Algorithm/DFS%20&%20BFS/README.md)
-  - [최장 증가 수열(LIS)](https://github.com/KUkingClass/cs-class/tree/main/Algorithm/최장%20증가%20수열%20(LIS))
+  - [최장 증가 수열(LIS)](https://github.com/KUkingClass/cs-class/tree/main/Algorithm/최장%20증가%20수열%20(LIS)) [@LifesLike](https://github.com/LifesLike)
   - 최소 공통 조상(LCA)
   - [동적 계획법(Dynamic Programming)](https://github.com/KUkingClass/cs-class/blob/main/Algorithm/%EB%8F%99%EC%A0%81%20%EA%B3%84%ED%9A%8D%EB%B2%95(Dynamic%20Programming)/README.md)
   - 다익스트라(Dijkstra) 알고리즘
