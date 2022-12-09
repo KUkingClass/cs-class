@@ -74,7 +74,7 @@ cs 요리하기 🥣
   - [최소 공통 조상(LCA)](https://github.com/KUkingClass/cs-class/tree/main/Algorithm/%EC%B5%9C%EC%86%8C%20%EA%B3%B5%ED%86%B5%20%EC%A1%B0%EC%83%81(LCA)) [@janghoosa](https://github.com/janghoosa)
   - [동적 계획법(Dynamic Programming)](https://github.com/KUkingClass/cs-class/blob/main/Algorithm/%EB%8F%99%EC%A0%81%20%EA%B3%84%ED%9A%8D%EB%B2%95(Dynamic%20Programming)/README.md)
   - [다익스트라(Dijkstra) 알고리즘](https://github.com/KUkingClass/cs-class/tree/main/Algorithm/%EB%8B%A4%EC%9D%B5%EC%8A%A4%ED%8A%B8%EB%9D%BC(Dijkstra)%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98) [@Lee-Jiseung](https://github.com/Lee-Jiseung)
-  - 비트마스크(BitMask)
+  - [비트마스크(BitMask)](https://github.com/KUkingClass/cs-class/blob/main/Algorithm/%EB%B9%84%ED%8A%B8%EB%A7%88%EC%8A%A4%ED%81%AC(BitMask)/README.md) [@mimwin](https://github.com/mimwin)
 
 - ### Database
   - [키(Key) 정리](https://github.com/KUkingClass/cs-class/tree/main/Database/%ED%82%A4) [@mimwin](https://github.com/mimwin)
