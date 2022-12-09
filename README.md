@@ -68,13 +68,13 @@ cs 요리하기 🥣
   - [기수 정렬(Radix Sort)](https://github.com/KUkingClass/cs-class/tree/main/Algorithm/%EA%B8%B0%EC%88%98%20%EC%A0%95%EB%A0%AC(Radix%20Sort)) [@janghoosa](https://github.com/janghoosa)
   - [계수 정렬(Count Sort)](https://github.com/KUkingClass/cs-class/tree/main/Algorithm/%EA%B3%84%EC%88%98%20%EC%A0%95%EB%A0%AC(Count%20Sort)) [@goldggyul](https://github.com/goldggyul)
   - [이분 탐색(Binary Search)](https://github.com/KUkingClass/cs-class/blob/main/Algorithm/%EC%9D%B4%EB%B6%84%ED%83%90%EC%83%89(Binary%20Search)/README.md) [@sujin-kk](https://github.com/sujin-kk)
-  - 해시 테이블 구현 
-  - DFS & BFS
-  - 최장 증가 수열(LIS)
-  - 최소 공통 조상(LCA)
-  - 동적 계획법(Dynamic Programming)
-  - 다익스트라(Dijkstra) 알고리즘
-  - 비트마스크(BitMask)
+  - [해시 테이블 구현](https://github.com/KUkingClass/cs-class/tree/main/Algorithm/Hash%20Table%20%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0) [@goldggyul](https://github.com/goldggyul)
+  - [DFS & BFS @sujin-kk](https://github.com/KUkingClass/cs-class/blob/main/Algorithm/DFS%20&%20BFS/README.md)
+  - [최장 증가 수열(LIS)](https://github.com/KUkingClass/cs-class/tree/main/Algorithm/최장%20증가%20수열%20(LIS)) [@LifesLike](https://github.com/LifesLike)
+  - [최소 공통 조상(LCA)](https://github.com/KUkingClass/cs-class/tree/main/Algorithm/%EC%B5%9C%EC%86%8C%20%EA%B3%B5%ED%86%B5%20%EC%A1%B0%EC%83%81(LCA)) [@janghoosa](https://github.com/janghoosa)
+  - [동적 계획법(Dynamic Programming)](https://github.com/KUkingClass/cs-class/blob/main/Algorithm/%EB%8F%99%EC%A0%81%20%EA%B3%84%ED%9A%8D%EB%B2%95(Dynamic%20Programming)/README.md)
+  - [다익스트라(Dijkstra) 알고리즘](https://github.com/KUkingClass/cs-class/tree/main/Algorithm/%EB%8B%A4%EC%9D%B5%EC%8A%A4%ED%8A%B8%EB%9D%BC(Dijkstra)%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98) [@Lee-Jiseung](https://github.com/Lee-Jiseung)
+  - [비트마스크(BitMask)](https://github.com/KUkingClass/cs-class/blob/main/Algorithm/%EB%B9%84%ED%8A%B8%EB%A7%88%EC%8A%A4%ED%81%AC(BitMask)/README.md) [@mimwin](https://github.com/mimwin)
 
 - ### Database
   - [키(Key) 정리](https://github.com/KUkingClass/cs-class/tree/main/Database/%ED%82%A4) [@mimwin](https://github.com/mimwin)
