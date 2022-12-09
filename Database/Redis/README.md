@@ -29,7 +29,8 @@
 - 속도 때문! disk I/O 작업이 발생하지 않아 **빠른 속도**가 큰 장점이다. (HDD 기준 수백배 빠름)
 - 대신 RAM의 용량의 제한을 받음 → 메인 데이터베이스로 사용하기엔 무리, 메모리 관리가 중요
 
-![Untitled](Redis%20982455835fb2409c908b037a42a95701/Untitled.png)
+<img width="400" alt="Untitled" src="https://user-images.githubusercontent.com/85485290/206676794-0a9d6908-8ff5-4fa5-aeef-83a6fd9637c8.png">
+
 
 **single thread ✨**
 
@@ -103,7 +104,8 @@
 
 </aside>
 
-![Untitled](Redis%20982455835fb2409c908b037a42a95701/Untitled%201.png)
+<img width="544" alt="Untitled 1" src="https://user-images.githubusercontent.com/85485290/206676874-ede7ec63-1873-463b-bd24-e71725fc10a9.png">
+
 
 - 장점
     - 자체적인 primary-secondary failover
@@ -150,11 +152,8 @@
 
 **Consistency Hashing**
 
-![Untitled](Redis%20982455835fb2409c908b037a42a95701/Untitled%202.png)
+<img width="400" alt="Untitled 2" src="https://user-images.githubusercontent.com/85485290/206676933-77e5fe0d-1544-492f-a246-821f2da645a5.png"><img width="400" alt="Untitled 3" src="https://user-images.githubusercontent.com/85485290/206676945-ccadfce4-9982-4d47-b2cf-188dbcecd357.png"><img width="400" alt="Untitled 4" src="https://user-images.githubusercontent.com/85485290/206676963-b019504b-7c26-4830-91b4-3b95bf37c170.png">
 
-![Untitled](Redis%20982455835fb2409c908b037a42a95701/Untitled%203.png)
-
-![Untitled](Redis%20982455835fb2409c908b037a42a95701/Untitled%204.png)
 
 - hash = 9인 데이터를 찾기 위해서는 9 % 3 → Master 1 서버에서 찾으면 됨
 - 만약 master4가 추가된다면?
@@ -170,18 +169,15 @@
 - Consistency Hashing 기법은 데이터 뿐 아니라 **master에도 hash 함수 적용**
 - master 서버 해시 값 기준으로 range를 나누어 데이터를 저장
 
-![Untitled](Redis%20982455835fb2409c908b037a42a95701/Untitled%205.png)
-
-![Untitled](Redis%20982455835fb2409c908b037a42a95701/Untitled%206.png)
+<img width="400" alt="Untitled 5" src="https://user-images.githubusercontent.com/85485290/206676992-52c25bdd-077f-40ef-9346-062f96c93629.png"><img width="400" alt="Untitled 6" src="https://user-images.githubusercontent.com/85485290/206677007-65b4eee8-80ec-4109-bfad-4d60bba59da8.png">
 
 - 오른쪽 처럼 master1 서버(노드)가 삭제 → master1의 데이터를 rebalancing 해야함
 - master1 → master2로 데이터 전부 이동? (인접한 노드로 이동한다,,?)
 
 **가상 노드**
 
-![Untitled](Redis%20982455835fb2409c908b037a42a95701/Untitled%207.png)
+<img width="400" alt="Untitled 7" src="https://user-images.githubusercontent.com/85485290/206677093-98c23d80-223a-4629-93e5-762023d865cc.png"><img width="400" alt="Untitled 8" src="https://user-images.githubusercontent.com/85485290/206677110-ac5a4b10-099b-4fc5-afff-ea5e99d4a3bf.png">
 
-![Untitled](Redis%20982455835fb2409c908b037a42a95701/Untitled%208.png)
 
 - 여러 개의 가상 노드를 배치하면 노드와 데이터 사이의 해시 값 범위가 좁아지게 된다 !
     - 노드 사이의 범위 ⬆ rebalancing할 데이터 양 ⬆
