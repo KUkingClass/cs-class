@@ -85,6 +85,6 @@ cs 요리하기 🥣
   - [이상(Anomaly)](https://github.com/KUkingClass/cs-class/tree/main/Database/%EC%9D%B4%EC%83%81(Anomaly)) [@Lee-Jiseung](https://github.com/Lee-Jiseung)
   - [인덱스](https://github.com/KUkingClass/cs-class/tree/main/Database/인덱스)(INDEX)
   - 트랜잭션(Transaction)
-  - 트랜잭션 격리 수준(Transaction Isolation Level)
+  - [트랜잭션 격리 수준(Transaction Isolation Level)](https://github.com/KUkingClass/cs-class/tree/main/Database/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98%20%EA%B2%A9%EB%A6%AC%20%EC%88%98%EC%A4%80) [@janghoosa](https://github.com/janghoosa)
   - 저장 프로시저(Stored PROCEDURE)
   - 레디스(Redis)
