@@ -1,3 +1,15 @@
+# TOC
+
+- [저장 프로시저(Stored PROCEDURE)](#저장-프로시저stored-procedure)
+  * [저장 프로시저 (Stored Procedure)](#저장-프로시저-stored-procedure)
+    + [Syntax](#syntax)
+    + [장점](#장점)
+    + [단점](#단점)
+  * [저장 함수(Stored Function)](#저장-함수stored-function)
+    + [Syntax](#syntax-1)
+  * [프로시저 vs. 함수 차이점](#프로시저-vs-함수-차이점)
+  * [참고](#--)
+
 # 저장 프로시저(Stored PROCEDURE)
 
 DB에 매번 쿼리를 날려야 할까?
@@ -162,7 +174,7 @@ SELECT sum_func(100, 200);
 
 -----
 
-### 참고
+## 참고
 
 - https://wildeveloperetrain.tistory.com/132
 - https://heestory217.tistory.com/18
