@@ -83,7 +83,7 @@ cs 요리하기 🥣
   - [SQL vs NoSQL](https://github.com/KUkingClass/cs-class/tree/main/Database/NoSQL) [@sujin-kk](https://github.com/sujin-kk)
   - [정규화(Nomalization)](https://github.com/KUkingClass/cs-class/tree/main/Database/%EC%A0%95%EA%B7%9C%ED%99%94) [@janghoosa](https://github.com/janghoosa)
   - [이상(Anomaly)](https://github.com/KUkingClass/cs-class/tree/main/Database/%EC%9D%B4%EC%83%81(Anomaly)) [@Lee-Jiseung](https://github.com/Lee-Jiseung)
-  - 인덱스(INDEX)
+  - [인덱스](https://github.com/KUkingClass/cs-class/tree/main/Database/인덱스)(INDEX)
   - 트랜잭션(Transaction)
   - 트랜잭션 격리 수준(Transaction Isolation Level)
   - 저장 프로시저(Stored PROCEDURE)
