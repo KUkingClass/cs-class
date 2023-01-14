@@ -88,3 +88,23 @@ cs 요리하기 🥣
   - [트랜잭션 격리 수준(Transaction Isolation Level)](https://github.com/KUkingClass/cs-class/tree/main/Database/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98%20%EA%B2%A9%EB%A6%AC%20%EC%88%98%EC%A4%80) [@janghoosa](https://github.com/janghoosa)
   - 저장 프로시저(Stored PROCEDURE)
   - [레디스(Redis)@sujin-kk](https://github.com/KUkingClass/cs-class/tree/main/Database/Redis)
+
+- ### Java
+  - [Java] Java 컴파일 과정
+  - [Java] Call by Value vs Call by Reference
+  - [Java] String & StringBuffer & StringBuilder
+  - [Java] 자바 가상 머신(Java Virtual Machine)
+  - [[Java] Casting(업캐스팅 & 다운캐스팅)](https://github.com/KUkingClass/cs-class/tree/main/Java/타입%20캐스팅%20%26%20오토%20박싱) [@LifesLike](https://github.com/LifesLike)
+  - [[Java] 오토 박싱 & 오토언박싱](https://github.com/KUkingClass/cs-class/tree/main/Java/타입%20캐스팅%20%26%20오토%20박싱) [@LifesLike](https://github.com/LifesLike)
+  - [Java] Thread 활용
+  - [Java] 고유 락(Intrinsic Lock)
+  - [Java] 문자열 클래스 
+  - [Java] Garbage Collection 
+  - [Java] Promotion & Casting
+  - [Java] Primitive type & Reference type
+  - [Java] 직렬화(Serialization)
+  - [Java] Error & Exception
+  - [Java] Stream API
+  - [Java] Record
+  - [Java] Interned String in Java
+  - [Java] Composition
