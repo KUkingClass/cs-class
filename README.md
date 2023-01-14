@@ -90,16 +90,16 @@ cs 요리하기 🥣
   - [레디스(Redis)@sujin-kk](https://github.com/KUkingClass/cs-class/tree/main/Database/Redis)
 
 - ### Java
-  - [Java] Java 컴파일 과정
-  - [Java] Call by Value vs Call by Reference
-  - [Java] String & StringBuffer & StringBuilder
-  - [Java] 자바 가상 머신(Java Virtual Machine)
+  - [Java] Java 컴파일 과정 [@Lee-Jiseung](https://github.com/Lee-Jiseung)
+  - [Java] Call by Value vs Call by Reference [@sujin-kk](https://github.com/sujin-kk)
+  - [Java] String & StringBuffer & StringBuilder [@sujin-kk](https://github.com/sujin-kk)
+  - [Java] 자바 가상 머신(Java Virtual Machine) [@Lee-Jiseung](https://github.com/Lee-Jiseung)
   - [[Java] Casting(업캐스팅 & 다운캐스팅)](https://github.com/KUkingClass/cs-class/tree/main/Java/타입%20캐스팅%20%26%20오토%20박싱) [@LifesLike](https://github.com/LifesLike)
   - [[Java] 오토 박싱 & 오토언박싱](https://github.com/KUkingClass/cs-class/tree/main/Java/타입%20캐스팅%20%26%20오토%20박싱) [@LifesLike](https://github.com/LifesLike)
-  - [Java] Thread 활용
-  - [Java] 고유 락(Intrinsic Lock)
-  - [Java] 문자열 클래스 
-  - [Java] Garbage Collection 
+  - [Java] Thread 활용 [@janghoosa](https://github.com/janghoosa)
+  - [Java] 고유 락(Intrinsic Lock) [@janghoosa](https://github.com/janghoosa)
+  - [Java] 문자열 클래스 [@sujin-kk](https://github.com/sujin-kk)
+  - [Java] Garbage Collection [@goldggyul](https://github.com/goldggyul)
   - [Java] Promotion & Casting
   - [Java] Primitive type & Reference type
   - [Java] 직렬화(Serialization)
