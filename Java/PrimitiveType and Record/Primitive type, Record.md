@@ -6,7 +6,8 @@
 
 일반적인 분류는 다음처럼 가집니다.
 
-> Java Data Type
+```
+Java Data Type
 ㄴ Primitive Type
     ㄴ Boolean Type(boolean)
     ㄴ Numeric Type
@@ -20,7 +21,7 @@
     ㄴ Array Type
     ㄴ Enum Type
     ㄴ etc.
-> 
+```
 
 ## Primitive type (기본형 타입)
 
