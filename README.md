@@ -101,10 +101,10 @@ cs 요리하기 🥣
   - [Java] 문자열 클래스 [@sujin-kk](https://github.com/sujin-kk)
   - [Java] Garbage Collection [@goldggyul](https://github.com/goldggyul)
   - [Java] Promotion & Casting
-  - [Java] Primitive type & Reference type
+  - [Java] [Primitive type & Reference type](https://github.com/KUkingClass/cs-class/blob/main/Java/PrimitiveType%20and%20Record/Primitive%20type%2C%20Record.md) [@janghoosa](https://github.com/janghoosa)
   - [Java] 직렬화(Serialization)
   - [Java] Error & Exception
   - [Java] Stream API
-  - [Java] Record
+  - [Java] [Record](https://github.com/KUkingClass/cs-class/blob/main/Java/PrimitiveType%20and%20Record/Primitive%20type%2C%20Record.md) [@janghoosa](https://github.com/janghoosa)
   - [Java] Interned String in Java
   - [Java] Composition
