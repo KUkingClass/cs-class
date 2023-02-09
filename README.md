@@ -99,11 +99,11 @@ cs 요리하기 🥣
   - [Java] Thread 활용 [@janghoosa](https://github.com/janghoosa)
   - [Java] 고유 락(Intrinsic Lock) [@janghoosa](https://github.com/janghoosa)
   - [Java] 문자열 클래스 [@sujin-kk](https://github.com/sujin-kk)
-  - [Java] Garbage Collection [@goldggyul](https://github.com/goldggyul)
+  - [Java] [Garbage Collection](https://github.com/KUkingClass/cs-class/tree/main/Java/Garbage%20Collection) [@goldggyul](https://github.com/goldggyul)
   - [Java] Promotion & Casting
   - [Java] [Primitive type & Reference type](https://github.com/KUkingClass/cs-class/blob/main/Java/PrimitiveType%20and%20Record/Primitive%20type%2C%20Record.md) [@janghoosa](https://github.com/janghoosa)
   - [Java] 직렬화(Serialization)
-  - [Java] Error & Exception
+  - [Java] [Error & Exception](https://github.com/KUkingClass/cs-class/tree/main/Java/Error%20%26%20Exception) [@goldggyul](https://github.com/goldggyul)
   - [Java] Stream API
   - [Java] [Record](https://github.com/KUkingClass/cs-class/blob/main/Java/PrimitiveType%20and%20Record/Primitive%20type%2C%20Record.md) [@janghoosa](https://github.com/janghoosa)
   - [Java] Interned String in Java
