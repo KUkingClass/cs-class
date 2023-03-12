@@ -2,29 +2,6 @@
 cs 요리하기 🥣
 
 참고: https://github.com/gyoogle/tech-interview-for-developer
-
-## 스터디 방식
-- 매주 과목을 정한다
-- 과목의 주제별로 담당자를 정한다
-- 쭉 공부 후에, `자신의 주제는 정리`해서 마크다운으로 정리한 것과 자신의 주제에서 질문을 뽑아 만든 `질문지`을 이슈를 태그하여 커밋한다.
-- `질문지`를 올릴 때 이슈를 생성해서 태그하여 올린다. ([이슈 예시](https://github.com/KUkingClass/cs-class/issues/2))
-
-  ➡️ 질문지는 스터디 전에 올려도 되고 스터디 동안 나온 질문들 합쳐서 스터디 후에 올려도 되고 상관 없습니다~!
-
-- 저장소에 올린 후에 이슈 체크박스에 체크한다.
-- 매주 만나서 정리한 걸 `발표`한다.
-- 다음 만나기 전까지 `질문지를 다 채우고 위에서 생성한 이슈를 태그하여 PR로 제출`한다. ([PR 예시](https://github.com/KUkingClass/cs-class/pull/3))
-- `주제 담당자가 확인`해서 Merge 해준다.
-
-### 제출
-- 파일 구조
-  - [CS명](https://github.com/KUkingClass/cs-class/tree/main/CS%EB%AA%85) 폴더처럼, 각 과목에 주제명 으로 폴더를 만든 후에, 정리한 내용은 README.md로 올린다.
-  - 질문지는 주제명 폴더 내에 Workbook폴더에 README.md로 올린다.
-  - 제출 시에는 Workbook 폴더에 자신의 이름.md로 올린다.
-- 커밋 
-  - [CS명/정리] 주제 (#이슈) 로 커밋한다.
-  - 예) [OS/정리] 운영체제란 (#1)
-  - 워크북 올릴 시엔 [CS명/워크북], 워크북 제출할 때는 [CS명/워크북 제출]
   
 ## 📌 Computer Science
 
@@ -84,27 +61,26 @@ cs 요리하기 🥣
   - [정규화(Nomalization)](https://github.com/KUkingClass/cs-class/tree/main/Database/%EC%A0%95%EA%B7%9C%ED%99%94) [@janghoosa](https://github.com/janghoosa)
   - [이상(Anomaly)](https://github.com/KUkingClass/cs-class/tree/main/Database/%EC%9D%B4%EC%83%81(Anomaly)) [@Lee-Jiseung](https://github.com/Lee-Jiseung)
   - [인덱스(INDEX)](https://github.com/KUkingClass/cs-class/tree/main/Database/인덱스) [@LifesLike](https://github.com/LifesLike)
-  - 트랜잭션(Transaction)
+  - [트랜잭션(Transaction)](https://github.com/KUkingClass/cs-class/tree/main/Database/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98(Transaction)) [@janghoosa](https://github.com/janghoosa)
   - [트랜잭션 격리 수준(Transaction Isolation Level)](https://github.com/KUkingClass/cs-class/tree/main/Database/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98%20%EA%B2%A9%EB%A6%AC%20%EC%88%98%EC%A4%80) [@janghoosa](https://github.com/janghoosa)
-  - 저장 프로시저(Stored PROCEDURE)
+  - [저장 프로시저(Stored PROCEDURE)](https://github.com/KUkingClass/cs-class/tree/main/Database/%EC%A0%80%EC%9E%A5%20%ED%94%84%EB%A1%9C%EC%8B%9C%EC%A0%80(Stored%20PROCEDURE)) [@goldggyul](https://github.com/goldggyul)
   - [레디스(Redis)@sujin-kk](https://github.com/KUkingClass/cs-class/tree/main/Database/Redis)
 
 - ### Java
   - [Java] Java 컴파일 과정 [@Lee-Jiseung](https://github.com/Lee-Jiseung)
   - [Java] Call by Value vs Call by Reference [@sujin-kk](https://github.com/sujin-kk)
   - [Java] String & StringBuffer & StringBuilder [@sujin-kk](https://github.com/sujin-kk)
-  - [Java] 자바 가상 머신(Java Virtual Machine) [@Lee-Jiseung](https://github.com/Lee-Jiseung)
+  - [[Java] 자바 가상 머신(Java Virtual Machine)](https://github.com/KUkingClass/cs-class/tree/main/Java/%EC%9E%90%EB%B0%94%20%EA%B0%80%EC%83%81%20%EB%A8%B8%EC%8B%A0(Java%20Virtual%20Machine)) [@Lee-Jiseung](https://github.com/Lee-Jiseung)
   - [[Java] Casting(업캐스팅 & 다운캐스팅)](https://github.com/KUkingClass/cs-class/tree/main/Java/타입%20캐스팅%20%26%20오토%20박싱) [@LifesLike](https://github.com/LifesLike)
   - [[Java] 오토 박싱 & 오토언박싱](https://github.com/KUkingClass/cs-class/tree/main/Java/타입%20캐스팅%20%26%20오토%20박싱) [@LifesLike](https://github.com/LifesLike)
-  - [Java] Thread 활용 [@janghoosa](https://github.com/janghoosa)
-  - [Java] 고유 락(Intrinsic Lock) [@janghoosa](https://github.com/janghoosa)
+  - [[Java] Thread 활용](https://github.com/KUkingClass/cs-class/tree/main/Java/Thread%20%26%20Lock) [@janghoosa](https://github.com/janghoosa)
+  - [[Java] 고유 락(Intrinsic Lock)](https://github.com/KUkingClass/cs-class/tree/main/Java/Thread%20%26%20Lock)  [@janghoosa](https://github.com/janghoosa)
   - [Java] 문자열 클래스 [@sujin-kk](https://github.com/sujin-kk)
-  - [Java] [Garbage Collection](https://github.com/KUkingClass/cs-class/tree/main/Java/Garbage%20Collection) [@goldggyul](https://github.com/goldggyul)
+  - [[Java] Garbage Collection](https://github.com/KUkingClass/cs-class/tree/main/Java/Garbage%20Collection) [@goldggyul](https://github.com/goldggyul)
   - [Java] Promotion & Casting
-  - [Java] [Primitive type & Reference type](https://github.com/KUkingClass/cs-class/blob/main/Java/PrimitiveType%20and%20Record/Primitive%20type%2C%20Record.md) [@janghoosa](https://github.com/janghoosa)
-  - [Java] 직렬화(Serialization)
-  - [Java] [Error & Exception](https://github.com/KUkingClass/cs-class/tree/main/Java/Error%20%26%20Exception) [@goldggyul](https://github.com/goldggyul)
-  - [Java] Stream API
-  - [Java] [Record](https://github.com/KUkingClass/cs-class/blob/main/Java/PrimitiveType%20and%20Record/Primitive%20type%2C%20Record.md) [@janghoosa](https://github.com/janghoosa)
-  - [Java] Interned String in Java
-  - [Java] Composition
+  - [[Java] Primitive type & Reference type](https://github.com/KUkingClass/cs-class/blob/main/Java/PrimitiveType%20and%20Record/Primitive%20type%2C%20Record.md) [@janghoosa](https://github.com/janghoosa)
+  - [[Java] 직렬화(Serialization)](https://github.com/KUkingClass/cs-class/tree/main/Java/%EC%A7%81%EB%A0%AC%ED%99%94(Serialization)) [@Lee-Jiseung](https://github.com/Lee-Jiseung)
+  - [[Java] Error & Exception](https://github.com/KUkingClass/cs-class/tree/main/Java/Error%20%26%20Exception) [@goldggyul](https://github.com/goldggyul)
+  - [[Java] Stream API](https://github.com/KUkingClass/cs-class/tree/main/Java/%EC%8A%A4%ED%8A%B8%EB%A6%BC%20API)
+  - [[Java] Record](https://github.com/KUkingClass/cs-class/blob/main/Java/PrimitiveType%20and%20Record/Primitive%20type%2C%20Record.md) [@janghoosa](https://github.com/janghoosa)
+  - [Java] Composition [@sujin-kk](https://github.com/sujin-kk)
