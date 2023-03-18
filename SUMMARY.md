@@ -1,6 +1,6 @@
 # 목차
 
-- [읽어보기](README.md)
+- [목차](README.md)
 
 ### Operating System
 
@@ -63,24 +63,24 @@
 - [트랜잭션(Transaction)](<Database/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98(Transaction)>) [@janghoosa](https://github.com/janghoosa)
 - [트랜잭션 격리 수준(Transaction Isolation Level)](Database/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98%20%EA%B2%A9%EB%A6%AC%20%EC%88%98%EC%A4%80) [@janghoosa](https://github.com/janghoosa)
 - [저장 프로시저(Stored PROCEDURE)](<Database/%EC%A0%80%EC%9E%A5%20%ED%94%84%EB%A1%9C%EC%8B%9C%EC%A0%80(Stored%20PROCEDURE)>) [@goldggyul](https://github.com/goldggyul)
-- [레디스(Redis)@sujin-kk](Database/Redis)
+- [레디스(Redis) @sujin-kk](Database/Redis)
 
 ### Java
 
-- Java 컴파일 과정 [@Lee-Jiseung](https://github.com/Lee-Jiseung)
-- Call by Value vs Call by Reference [@sujin-kk](https://github.com/sujin-kk)
-- String & StringBuffer & StringBuilder [@sujin-kk](https://github.com/sujin-kk)
+- Java 컴파일 과정
+- Call by Value vs Call by Reference 
+- String & StringBuffer & StringBuilder 
 - [자바 가상 머신(Java Virtual Machine)](<Java/%EC%9E%90%EB%B0%94%20%EA%B0%80%EC%83%81%20%EB%A8%B8%EC%8B%A0(Java%20Virtual%20Machine)>) [@Lee-Jiseung](https://github.com/Lee-Jiseung)
 - [Casting(업캐스팅 & 다운캐스팅)](Java/타입%20캐스팅%20%26%20오토%20박싱) [@LifesLike](https://github.com/LifesLike)
 - [오토 박싱 & 오토언박싱](Java/타입%20캐스팅%20%26%20오토%20박싱) [@LifesLike](https://github.com/LifesLike)
 - [Thread 활용](Java/Thread%20%26%20Lock) [@janghoosa](https://github.com/janghoosa)
 - [고유 락(Intrinsic Lock)](Java/Thread%20%26%20Lock) [@janghoosa](https://github.com/janghoosa)
-- 문자열 클래스 [@sujin-kk](https://github.com/sujin-kk)
+- 문자열 클래스
 - [Garbage Collection](Java/Garbage%20Collection) [@goldggyul](https://github.com/goldggyul)
 - Promotion & Casting
 - [Primitive type & Reference type](https://github.com/KUkingClass/cs-class/blob/main/Java/PrimitiveType%20and%20Record/Primitive%20type%2C%20Record.md) [@janghoosa](https://github.com/janghoosa)
 - [직렬화(Serialization)](<Java/%EC%A7%81%EB%A0%AC%ED%99%94(Serialization)>) [@Lee-Jiseung](https://github.com/Lee-Jiseung)
 - [Error & Exception](Java/Error%20%26%20Exception) [@goldggyul](https://github.com/goldggyul)
-- [Stream API](Java/%EC%8A%A4%ED%8A%B8%EB%A6%BC%20API)
+- [Stream API](Java/%EC%8A%A4%ED%8A%B8%EB%A6%BC%20API) [@LifesLike](https://github.com/LifesLike)
 - [Record](https://github.com/KUkingClass/cs-class/blob/main/Java/PrimitiveType%20and%20Record/Primitive%20type%2C%20Record.md) [@janghoosa](https://github.com/janghoosa)
-- Composition [@sujin-kk](https://github.com/sujin-kk)
+- Composition
