@@ -2,6 +2,8 @@
 cs 요리하기 🥣
 
 참고: https://github.com/gyoogle/tech-interview-for-developer
+
+[여기에서도 볼 수 있](https://kukingclass.gitbook.io/computerscience/)
   
 ## 📌 Computer Science
 
