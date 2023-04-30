@@ -53,7 +53,7 @@ str = str + "world";
     - “hello”에 할당되어 있던 메모리 영역은 GC에 의해 사라지게 됨
     - 한번 생성된 객체 내부의 내용을 변화시킬 수 없고 **새로운 String 인스턴스가 생성**되므로 불변하다고 한다.
 
-![Untitled](%5BJava%5D%20String%20StringBuffer%20StringBuilder%209f11b3dd9e764e9d98d954c505b5b676/Untitled.png)
+![Untitled](./assets/Untitled.png)
 
 - 그래서 문자열 추가, 수정, 삭제 등의 연산이 빈번하게 발생하는 경우 → String을 사용하면 heap 메모리 부족을 야기,,
 
@@ -74,7 +74,7 @@ sb.append(" world")
 
 - str을 가리키는 참조값은 변화하지 않는다.
 
-![Untitled](%5BJava%5D%20String%20StringBuffer%20StringBuilder%209f11b3dd9e764e9d98d954c505b5b676/Untitled%201.png)
+![Untitled](./assets/Untitled%201.png)
 
 - `append()` 내부 살펴보기
     - 문자열을 추가하게 되면 `len`(문자열의 길이) 만큼 문자열을 저장하는 배열의 공간을 늘려주고, 늘려준 공간에 추가 할 문자열을 넣어줌 → **값이 변경되는 가변성, 같은 주소 공간 참조✨**
@@ -107,7 +107,7 @@ public AbstractStringBuilder append(String str) {
 
 - StringBuffer의 `synchronized` 키워드
 
-![Untitled](%5BJava%5D%20String%20StringBuffer%20StringBuilder%209f11b3dd9e764e9d98d954c505b5b676/Untitled%202.png)
+![Untitled](./assets/Untitled%202.png)
 
 ## 정리
 
